@@ -2,7 +2,7 @@ require 'sinatra'
 require 'shotgun'
 
 get '/' do
-  "Hello guys"
+  erb(:index)
 end
 
 get '/cat' do
